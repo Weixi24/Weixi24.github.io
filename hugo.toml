@@ -9,20 +9,27 @@ home = ['HTML', 'RSS', 'JSON']
 [params]
   env = 'production'
   description = '记录个人经历、学习成长和博客文章'
-  defaultTheme = 'auto'  # auto / light / dark
+  defaultTheme = 'auto'
   ShowReadingTime = true
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
   ShowToc = true
-  comments = false
+  ShowLastModified = true
   
+  # Giscus 评论系统配置
+  [params.giscus]
+    repo = 'Weixi24/Weixi24.github.io'
+    repoId = 'R_kgDOS5tQrw'
+    category = 'Announcements'
+    categoryId = ''  # 留空，Giscus 自动搜索
+    mapping = 'pathname'
+    theme = 'preferred_color_scheme'
+    lang = 'zh-CN'
+
   [params.homeInfoParams]
     Title = 'Hi there, I am Weixi24'
     Content = '电子工程出身，对技术和学习充满热情。这里记录我的学习、成长和一些思考。'
-
-  [params.favicon]
-    # 后续添加
 
 [[menu.main]]
   identifier = 'timeline'

@@ -2,6 +2,7 @@
 title: "关于我"
 date: 2026-06-13
 menu: "main"
+disableComments: true
 ---
 
 # 关于我
