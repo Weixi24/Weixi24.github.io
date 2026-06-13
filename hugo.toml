@@ -25,6 +25,12 @@ home = ['HTML', 'RSS', 'JSON']
     # 后续添加
 
 [[menu.main]]
+  identifier = 'timeline'
+  name = '时间线'
+  url = 'timeline/'
+  weight = 5
+
+[[menu.main]]
   identifier = 'posts'
   name = '文章'
   url = 'posts/'
