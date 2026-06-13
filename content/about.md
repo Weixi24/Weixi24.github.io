@@ -14,4 +14,4 @@ menu: "main"
 
 ## 联系方式
 
-- GitHub: [你的 GitHub 地址](https://github.com/yourname)
+- GitHub: [Weixi24](https://github.com/Weixi24)
