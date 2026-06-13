@@ -1,0 +1,32 @@
+baseURL = 'https://example.org/'
+languageCode = 'zh-CN'
+title = '我的个人网站'
+theme = 'PaperMod'
+
+[outputs]
+home = ['HTML', 'RSS', 'JSON']
+
+[params]
+  env = 'production'
+  description = '记录个人经历、学习成长和博客文章'
+  defaultTheme = 'auto'  # auto / light / dark
+  
+  [params.homeInfoParams]
+    Title = '欢迎来到我的个人网站'
+    Content = '这里记录我的学习、成长和一些思考。'
+
+[[menu.main]]
+  identifier = 'posts'
+  name = '文章'
+  url = 'posts/'
+  weight = 10
+
+[[menu.main]]
+  identifier = 'about'
+  name = '关于'
+  url = 'about/'
+  weight = 20
+
+[services]
+  [services.rss]
+    limit = 15
