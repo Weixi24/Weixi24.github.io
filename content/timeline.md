@@ -1,8 +1,7 @@
 ---
 title: "时间线"
 date: 2026-06-13
-menu: "main"
-disableComments: true
+showComments: false
 ---
 
 # 成长时间线

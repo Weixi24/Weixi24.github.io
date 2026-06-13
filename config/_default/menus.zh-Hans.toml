@@ -1,0 +1,30 @@
+# -- Main Menu --
+[[main]]
+  name = "文章"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "时间线"
+  pageRef = "timeline"
+  weight = 20
+
+[[main]]
+  name = "关于"
+  pageRef = "about"
+  weight = 30
+
+[[main]]
+  name = "GitHub"
+  url = "https://github.com/Weixi24"
+  weight = 40
+  [main.params]
+    icon = "github"
+    showName = false
+    target = "_blank"
+
+[[main]]
+  identifier = "search"
+  weight = 99
+  [main.params]
+    action = "search"

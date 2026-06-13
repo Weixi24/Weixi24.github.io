@@ -1,0 +1,57 @@
+# -- Theme Parameters --
+colorScheme = "ocean"
+defaultAppearance = "auto"
+autoSwitchAppearance = true
+
+enableSearch = true
+enableCodeCopy = true
+enableImageLazyLoading = true
+
+[header]
+  showTitle = true
+
+[footer]
+  showCopyright = true
+  showThemeAttribution = true
+  showAppearanceSwitcher = true
+  showScrollToTop = true
+
+[homepage]
+  layout = "page"
+  showRecent = true
+  recentLimit = 5
+
+[article]
+  showDate = true
+  showDateUpdated = true
+  showAuthor = true
+  showBreadcrumbs = true
+  showDraftLabel = true
+  showEdit = true
+  editURL = "https://github.com/Weixi24/Weixi24.github.io/edit/main/content/"
+  editAppendPath = true
+  showHeadingAnchors = true
+  showPagination = true
+  invertPagination = false
+  showReadingTime = true
+  showTableOfContents = true
+  showTaxonomies = false
+  showWordCount = false
+  showComments = true
+
+[list]
+  showBreadcrumbs = true
+  showTableOfContents = true
+  showTaxonomies = false
+
+[taxonomy]
+  showTermCount = true
+
+[giscus]
+  repo = "Weixi24/Weixi24.github.io"
+  repoId = "R_kgDOS5tQrw"
+  category = "Announcements"
+  categoryId = ""
+  mapping = "pathname"
+  theme = "preferred_color_scheme"
+  lang = "zh-CN"

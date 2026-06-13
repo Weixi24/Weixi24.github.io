@@ -1,0 +1,13 @@
+# -- Site Configuration --
+defaultContentLanguage = "zh-Hans"
+languageCode = "zh-CN"
+title = "Weixi24"
+theme = "congo"
+enableRobotsTXT = true
+summaryLength = 0
+
+[pagination]
+  pagerSize = 15
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]

@@ -1,0 +1,8 @@
+# -- Languages --
+defaultContentLanguage = "zh-Hans"
+
+[languages]
+  [languages.zh-Hans]
+    languageName = "中文"
+    contentDir = "content"
+    weight = 10
